@@ -28,21 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.extendedTextBoxControl1 = new ExtendedTextBox.ExtendedTextBoxControl();
+           
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // extendedTextBoxControl1
             // 
-            this.extendedTextBoxControl1.BoxText = "";
-            this.extendedTextBoxControl1.ErrorMessage = null;
-            this.extendedTextBoxControl1.isRequired = true;
-            this.extendedTextBoxControl1.Location = new System.Drawing.Point(33, 23);
-            this.extendedTextBoxControl1.Name = "extendedTextBoxControl1";
-            this.extendedTextBoxControl1.NumbericTextBox = false;
-            this.extendedTextBoxControl1.Size = new System.Drawing.Size(317, 20);
-            this.extendedTextBoxControl1.TabIndex = 0;
-            this.extendedTextBoxControl1.TextMode = ExtendedTextBox.ExtendedTextBoxControl.Modes.SingleLine;
+            
+           
             // 
             // button1
             // 
@@ -59,16 +52,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 402);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.extendedTextBoxControl1);
             this.Name = "FrmStock";
-            this.Text = "FrmStock";
+            this.Text = "Stock";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private ExtendedTextBox.ExtendedTextBoxControl extendedTextBoxControl1;
+        
         private System.Windows.Forms.Button button1;
     }
 }
